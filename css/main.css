@@ -1,0 +1,68 @@
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+}
+
+.container{
+  width: 70vh;
+  margin: auto;
+}
+
+/* header */
+header{
+  height: 150px;
+  background-color: darkgrey;
+}
+
+/* main */
+main{
+  /*height: 750px;*/
+  background-color: darkred;
+}
+
+.floatcontainer{
+  background-color: orange;
+}
+
+.floatcontainer:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.pagefeed{
+  width: 20%;
+  height: 200px;
+  background-color: white;
+  float: left;
+}
+
+.contentpage{
+  width: 50%;
+  height: 150px;
+  background-color: white;
+  float: left;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.widget{
+  width: 20%;
+  /*height: 500px;*/
+  background-color: white;
+  float: left;
+}
+
+/* content widget */
+.block{
+  background-color: black;
+  height: 150px;
+  margin-bottom: 15px;
+}
+/* footer */
+footer{
+  height: 100px;
+  background-color: darkblue;
+}
