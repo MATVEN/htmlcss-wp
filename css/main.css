@@ -63,34 +63,41 @@ main{
   margin-right: 5%;
 }
 
+#title{
+  color: black;
+  font-size: 12px;
+  padding: 5px;
+}
+
 .widget{
   width: 20%;
   /*height: 500px;*/
-  background-color: white;
+  background-color: inherit;
   float: left;
 }
 
 /* content widget */
 .block{
-  background-color: black;
+  background-color: white;
   height: 150px;
   margin-bottom: 15px;
 }
 
 .int{
-  color: white;
+  color: black;
   font-size: 12px;
+  padding: 5px;
   text-align: center;
 }
 
 .txt{
-  color: white;
+  color: black;
   font-size: 9px;
-  text-align: center;
+  padding-left: 5px;
 }
 
 /* footer */
 footer{
   height: 100px;
-  background-color: darkblue;
+  background-color: white;
 }
