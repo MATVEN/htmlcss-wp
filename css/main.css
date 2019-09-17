@@ -5,10 +5,13 @@
   border: 0;
 }
 
+body{
+  background-image: url("../img/sfondo.jpg");
+}
+
 .container{
   width: 70vh;
   margin: auto;
-  background-image: url("../img/sfondo.jpg");
 }
 
 /* header */
@@ -72,6 +75,18 @@ main{
   background-color: black;
   height: 150px;
   margin-bottom: 15px;
+}
+
+.int{
+  color: white;
+  font-size: 12px;
+  text-align: center;
+}
+
+.txt{
+  color: white;
+  font-size: 9px;
+  text-align: center;
 }
 
 /* footer */
