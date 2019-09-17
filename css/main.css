@@ -8,6 +8,7 @@
 .container{
   width: 70vh;
   margin: auto;
+  background-image: url("../img/sfondo.jpg");
 }
 
 /* header */
@@ -16,14 +17,25 @@ header{
   background-color: darkgrey;
 }
 
+.logo{
+  height: 130px;
+  background-image: url("../img/logo.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  border: 5px solid white;
+}
+
+ .theme{
+  color: white;
+  font-size: 10px;
+}
+
 /* main */
 main{
   /*height: 750px;*/
-  background-color: darkred;
 }
 
 .floatcontainer{
-  background-color: orange;
 }
 
 .floatcontainer:after{
@@ -61,6 +73,7 @@ main{
   height: 150px;
   margin-bottom: 15px;
 }
+
 /* footer */
 footer{
   height: 100px;
