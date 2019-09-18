@@ -59,9 +59,6 @@ main{
   /*height: 750px;*/
 }
 
-.floatcontainer{
-}
-
 .floatcontainer:after{
   content: "";
   display: table;
@@ -128,7 +125,4 @@ main{
 footer{
   height: 100px;
   background-color: white;
-}
-
-.sign{
 }
