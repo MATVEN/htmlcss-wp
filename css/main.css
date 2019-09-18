@@ -33,6 +33,11 @@ header{
   font-size: 10px;
 }
 
+.section{
+  font-size: 6px;
+  display: inline-block;
+  text-align: center;
+}
 /* main */
 main{
   /*height: 750px;*/
@@ -49,13 +54,14 @@ main{
 
 .pagefeed{
   width: 20%;
-  height: 200px;
+  height: 250px;
   background-color: white;
   float: left;
 }
 
 .feed{
-  color: darkgreen;
+  color: green;
+  font-size: 8px;
 }
 
 .contentpage{
@@ -75,6 +81,7 @@ main{
 
 .widget{
   width: 20%;
+  text-align: center;
   /*height: 500px;*/
   background-color: inherit;
   float: left;
