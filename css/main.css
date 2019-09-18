@@ -33,7 +33,18 @@ header{
   font-size: 10px;
 }
 
-.navbar{
+nav{
+  height: 100%
+
+}
+
+.navbar ul{
+  list-style-type: none;
+}
+
+.navbar li{
+  float: left;
+  width: 14.28%;
   text-align: center;
 }
 
