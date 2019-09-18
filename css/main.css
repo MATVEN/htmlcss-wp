@@ -33,11 +33,18 @@ header{
   font-size: 10px;
 }
 
-.section{
-  font-size: 6px;
-  display: inline-block;
+.navbar{
   text-align: center;
 }
+
+.input-link{
+  border: 0;
+  background: none;
+  display: inline-block;
+  font-size: 7px;
+  color: white;
+}
+
 /* main */
 main{
   /*height: 750px;*/
@@ -105,6 +112,7 @@ main{
   color: black;
   font-size: 9px;
   padding-left: 5px;
+  line-height: 15px;
 }
 
 /* footer */
